@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel serve src/index.html",
-    "build": "npm run test && parcel build src/index.html",
+    "build": "npx parcel build src/index.html --experimental-scope-hoisting",
     "test": "node tests/*.js"
   },
   "browserslist": [
